@@ -49,7 +49,6 @@
 	<li>Ongoing Education at Quinnipiac University of Hamden, CT for a Bachelor's Science degree in Software Engineering</li>
 	<li>Expected Year of graduation: 2017</li>
 	<li>Standing Accumulative GPA: 3.25</li>
-
 </ul>
 <hr>
 <h2>Affiliations</h2>
