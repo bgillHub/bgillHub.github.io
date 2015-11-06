@@ -15,9 +15,17 @@ div.ResumeBlock {
 
 div.ResumeBlock:hover {
 		background-color: rgb(200,200,200) ;
+		border: 9px solid gray;
 }
 
 div.Bio {
+	background-color: rgb(220,220,220);
+    padding:5px;
+    border:5px solid black;
+    margin-top: 45px;
+}
+
+div.WholePage {
 	background-color: rgb(220,220,220);
     padding:5px;
     border:5px solid black;
@@ -38,7 +46,7 @@ div.InfoList {
     position: fixed;
     left: 50%;
     margin-left: -230px;
-    margin-top: 15px;
+    margin-top: -20px;
 }
 
 .navBar li {
@@ -47,9 +55,7 @@ div.InfoList {
 
 .navBar a{
 	display:inline-block;
-
 }
-
 
 .navTopics {
 	padding: 0px;
@@ -63,9 +69,10 @@ div.InfoList {
 		background-color: rgb(245,215,28);
 }
 
-
 img.linkedIn {
 	src: "linkedIcon.jpg";
 }
 
-
+a:hover {
+	color: red;
+}
