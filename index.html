@@ -1,23 +1,97 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Brian Gill - Official Resume Site Index</title>
-	</head>
-	<body>
-		
-		<center><img src = "img/Mugshot.jpg" height = "100" width = "65">
-		<div class = "Bio">
-		<h1 style = "font-size:26px"><center>Brian Gill</h1>
-		<p>Hello, and welcome to my personal in-progress career-building website. Here you will find helpful resources such as my resume to learn my talents and abilities as a software developer. As a software engineering student, my progression in programming can be quite erratic. Over time, this site will in fact update and expand to reflect my increasing experience in using HTML and CSS to build a website that not only displays necessary information, but satisfies the user. After all, deploying software is, at its core, a <i>user-driven experience.</i></p>
-	</div>
-		<div class = "InfoList">
-		<p><b>Website Pages</b></p>
-		<p><a href = "resumePage.html">Resume </a></p>
-		<p><a href = "codes.html">Coding Examples</a></p>
-		<p><a href = "bCard.html">Business Card</a></p>
 
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Brian Gill - Official Resume Site Home</title>
+</head>
+<body>
+	<div class ="site-wrapper pager" style = "background-color: #233237">
+			<div class = "jumbotron" style = "background-color: #233237; color:white">
+				<div class = "row">
+				<img class ="profile" src = "profile.jpg" >
+			</div>
+			<div class = "row">
+				<p style = "font-size:26px">Brian Gill</p>
+				<p style="padding: 10px">Hello, and welcome to my personal in-progress career-building website. This will be a simple webpage updating my professional worth and personal interests. Currently, a lot of future work may be expected.</p>
+				<center><p style="font-size:20px; padding-top: 5px">First: Why are you Here?</p></center>
+			</div>
+			<div class = "row" style="padding-top: 5px">
+				<button class = "btn btn-primary col-xs-2 col-xs-offset-3" data-toggle="modal" data-target="#bizModal" >Business</button>
+				<button class = "btn btn-warning col-xs-2 col-xs-offset-2"data-toggle="modal" data-target="#plezModal">Pleasure</button>
+			</div>
+			</div>
+	</div>
+</body>
+<!-- Modal -->
+<div id="plezModal" class="modal fade popup" role="dialog">
+	<div class="modal-dialog ">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Just My Interests</h4>
+			</div>
+			<div class="modal-body">
+				<ul class = "list-group">
+					<a href="index.html" class ="blank"><li class="list-group-item">Movies</li></a>
+					<a href="index.html" class ="blank" ><li class="list-group-item">Books</li></a>
+					<a href="index.html" class ="blank" ><li class="list-group-item">Games</li></a>
+					<a href="index.html" class ="blank" ><li class="list-group-item">Future Desires</li></a>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
 		</div>
-	</center>
-	</body>
+	</div>
+</div>
+<!-- Modal -->
+<div id="bizModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Business Things</h4>
+			</div>
+			<div class="modal-body">
+				<ul class = "list-group">
+					<a href="" class ="blank" data-toggle="modal" data-target="#resumePDF"><li class="list-group-item">Resume PDF</li></a>
+					<a href="biz.html#education" class ="blank" ><li class="list-group-item">Education</li></a>
+					<a href="biz.html#workexp" class ="blank" ><li class="list-group-item">Work Experiences</li></a>
+					<a href="biz.html#projects" class ="blank" ><li class="list-group-item">Coding Projects</li></a>
+					<a href="biz.html#future" class ="blank" ><li class="list-group-item">Future Desires</li></a>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+<div id="resumePDF" class="modal fade" role="dialog" >
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body"style="height:75vh;">
+				<object data="resume.pdf"style="height:70vh; width:90%; float: center;" ></object>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 </html>
