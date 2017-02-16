@@ -110,3 +110,8 @@ a.blank {
 	color: #000000;
 	text-decoration: none;
 }
+
+div.stripe {
+	padding: 0px;
+	margin: 0px;
+}
