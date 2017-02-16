@@ -85,8 +85,24 @@ a:hover {
 }
 
 p.sectionTitle {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: serif;
+}
+
+p.subsection{
 	font-size: 18px;
 	font-style: oblique;
+	font-weight: lighter;
+	font-family: sans-serif;
+}
+
+p.blurb{
+	font-size: 12px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-weight: lighter;
 	font-family: sans-serif;
 }
 
