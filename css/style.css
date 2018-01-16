@@ -135,12 +135,12 @@ div.stripe {
 }
 
 button.round{
-	border-radius: 50%;
+	border-radius: 70%;
 	align-content: center;
 	overflow: hidden;
-	padding: 15px;
+	padding: 5%;
 	text-align: center;
-	font-size: 100%;
+	font-size: 1.5vw;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
