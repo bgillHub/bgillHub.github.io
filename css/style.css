@@ -135,8 +135,10 @@ div.stripe {
 }
 
 button.round{
-	border-radius: 70%;
+	border-radius: 50%;
+	display: block;
 	align-content: center;
+	border: 2px solid white;
 	overflow: hidden;
 	padding: 5%;
 	text-align: center;
