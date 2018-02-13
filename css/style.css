@@ -142,8 +142,7 @@ button.round{
 	overflow: hidden;
 	padding: 5%;
 	text-align: center;
-	font-size: 14px;
-	font-size: 1.6vw;
+	font-size: 1.3vw;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
