@@ -121,7 +121,8 @@ img.profile {
 }
 
 .pager {
-	height: 100%;
+	height: 100vh;
+	background-color: #233237;
 }
 
 a.blank {
@@ -134,15 +135,27 @@ div.stripe {
 	margin: 0px;
 }
 
+p.intro-head{
+	font-size: 2vw;
+	padding: 5%;
+}
+
+p.name-head{
+	font-size: 4vw;
+	padding: 5%;
+}
+
 button.round{
 	border-radius: 50%;
+	height: 20vw;
+	width: 20vw;
 	display: block;
 	align-content: center;
 	border: 2px solid white;
 	overflow: hidden;
 	padding: 5%;
 	text-align: center;
-	font-size: 1.3vw;
+	font-size: 2vw;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
