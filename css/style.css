@@ -114,10 +114,10 @@ ul {
 }
 
 img.profile {
-	border-radius: 15% 15% 15% 15%;
-	width: 15%;
-  height: auto;
-	border: solid black;
+	border-radius: 50%;
+	height: 20vw;
+	width: 20vw;
+	border: 2px solid black;
 }
 
 .pager {
